@@ -1,8 +1,5 @@
 # shortuuid
 
-[![Build Status](https://github.com/lithammer/shortuuid/workflows/CI/badge.svg)](https://github.com/lithammer/shortuuid/actions)
-[![Godoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://pkg.go.dev/github.com/lithammer/shortuuid/v4)
-
 A Go library that generates concise, unambiguous, URL-safe UUIDs. Based on and
 compatible with the Python library
 [`shortuuid`](https://github.com/skorokithakis/shortuuid).
@@ -55,7 +52,7 @@ import (
 
 	"github.com/btcsuite/btcutil/base58"
 	"github.com/google/uuid"
-	"github.com/lithammer/shortuuid/v4"
+	"github.com/edluis37/shortuuid/v4"
 )
 
 type base58Encoder struct{}
